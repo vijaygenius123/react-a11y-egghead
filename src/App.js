@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <img src={"https://imgur.com"}/>
       </header>
     </div>
   );
