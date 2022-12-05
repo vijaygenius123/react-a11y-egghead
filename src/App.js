@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <img src={"https://imgur.com"}/>
+        <img src={"https://picsum.photos/500/300?random=1"} alt={"random "} />
       </header>
     </div>
   );
