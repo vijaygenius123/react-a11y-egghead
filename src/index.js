@@ -5,6 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+if(process.env.NODE_ENV !== 'production'){
+    const axe = require('react-axe')
+    axe(React, 1000)
+}
 root.render(
   <React.StrictMode>
     <App />
